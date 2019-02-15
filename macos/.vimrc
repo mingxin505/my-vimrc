@@ -1,21 +1,22 @@
-syntax on
-colorscheme delek
 filetype off                  " required!
 set rtp+=~/.vim/Bundle/Vundle.vim
 
 """"""""""""""""""""""""""""""
 " Vundle
 """"""""""""""""""""""""""""""
+
+call vundle#begin()
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-rails.git'
+call vundle#end()
 call vundle#begin()
 " let Vundle manage Vundle
 " required! 
 Plugin 'gmarik/vundle'
 " My Plugins here:
-Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'tpope/vim-rails.git'
 Plugin 'molokai'
 " vim-scripts repos
 Plugin 'Valloric/YouCompleteMe'
@@ -212,14 +213,6 @@ set foldenable              " 开始折叠
 set noeb
 " 在处理未保存或只读文件的时候，弹出确认
 set confirm
-" 自动缩进
-set autoindent
-set cindent
-
-" 统一缩进为4
-set tabstop=4		
-set softtabstop=4	
-set shiftwidth=4
 
 "set noexpandtab	" 不要用空格代替制表符
 set smarttab		" 在行和段开始处使用制表符
@@ -308,23 +301,4 @@ filetype plugin indent on
 "打开文件类型检测, 加了这句才可以用智能补全
 set completeopt=longest,menu
 """""""""""""""""""""""""""""""""""""""""""""""
-"NERDtee设定
-let NERDChristmasTree=1
-let NERDTreeAutoCenter=1
-let NERDTreeBookmarksFile=$VIM.'\Data\NerdBookmarks.txt'
-let NERDTreeMouseMode=2
-let NERDTreeShowBookmarks=1
-let NERDTreeShowFiles=1
-let NERDTreeShowHidden=1
-let NERDTreeShowLineNumbers=1
-let NERDTreeWinPos='left'
-let NERDTreeWinSize=31
-nnoremap f :NERDTreeToggle
-map <F8> :NERDTree<CR>  
 
-" 根据文件类型设置缩进"
-if has("autocmd")
-  filetype on
-  autocmd Filetype lua,ruby setlocal ts=2 sts=2 sw=2 et
-  autocmd Filetype javascript,html,css,xml setlocal ts=2 sts=2 sw=2 et
-endif
