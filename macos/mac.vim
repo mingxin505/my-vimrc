@@ -92,9 +92,9 @@ endfunction
 autocmd BufNewFile *.{h,hpp,H} call <SID>insert_gates()
 
 "新建.c,.h,.sh,.java文件，自动插入文件头 
-autocmd BufNewFile *.cpp,*.[cr],*.sh,*.java,*.lua exec ":call SetTitle()" 
-""定义函数SetTitle，自动插入文件头 
-func SetTitle() 
+autocmd BufNewFile *.cpp,*.[cr],*.sh,*.java,*.lua exec ":call SetTitle_()" 
+""定义函数SetTitle_，自动插入文件头 
+func! SetTitle_() 
     "如果文件类型为.sh文件 
     if &filetype == 'sh' 
         call setline(1,"\#########################################################################") 
