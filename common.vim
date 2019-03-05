@@ -19,9 +19,18 @@ if has("autocmd")
   autocmd Filetype c,c++,java  setlocal ts=4 sts=4 sw=4 et
 endif
 syntax on
-set hlsearch
 set noexpandtab 
 set number
 set autoindent 
 set cindent
 
+
+"禁止生成临时文件
+set nobackup
+set noswapfile
+
+set autowrite               " 自动保存
+
+"搜索逐字符高亮
+set hlsearch
+set incsearch
