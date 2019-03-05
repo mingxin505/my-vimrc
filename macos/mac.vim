@@ -197,7 +197,7 @@ set clipboard+=unnamed
 set nobackup				"从不备份  
 :set makeprg=g++\ -Wall\ \ % "make 运行
 
-set autowrite               " 自动保存
+
 set ruler                   " 打开状态栏标尺
 set cursorline              " 突出显示当前行
 set magic                   " 设置魔术
@@ -220,14 +220,7 @@ set number			" 显示行号
 set history=1000	" 历史记录数
 set ignorecase		"搜索忽略大小写
 
-"禁止生成临时文件
-set nobackup
-set noswapfile
 
-
-"搜索逐字符高亮
-set hlsearch
-set incsearch
 "行内替换
 set gdefault
 "编码设置
