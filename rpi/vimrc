@@ -1,0 +1,12 @@
+:source $HOME/my-vimrc/common.vim
+:source $HOME/my-vimrc/nerdtree.vim
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+:source $HOME/my-vimrc/statusP.vim
+:source $HOME/my-vimrc/rpi/rpip.vim
+
+call vundle#end()
+:source $HOME/my-vimrc/rpi/rpi.vim
+:source $HOME/my-vimrc/status.vim
