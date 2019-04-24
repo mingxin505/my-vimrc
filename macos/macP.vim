@@ -4,7 +4,6 @@ Plugin 'tpope/vim-rails.git'
 " required!
 Plugin 'gmarik/vundle'
 " My Plugins here:
-Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'molokai'
