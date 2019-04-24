@@ -1,8 +1,10 @@
 " 设置语法高亮
 syntax on
+syntax enable
 
-" 设置色彩方案
-colorscheme delek
+filetype off 			" 关闭文件类型检测,在bundle#end之后由filetype plugin indent on 重新打开.
+colorscheme delek " 设置色彩方案
+set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本的一些bug和局限
 
 " 自动缩进
 set autoindent
@@ -18,7 +20,7 @@ if has("autocmd")
   filetype on
   autocmd Filetype c,c++,java  setlocal ts=4 sts=4 sw=4 et
 endif
-syntax on
+
 set noexpandtab 
 set number
 set autoindent 
