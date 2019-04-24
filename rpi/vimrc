@@ -4,7 +4,7 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
-:source $HOME/my-vimrc/statusP.vim
+:source $HOME/my-vimrc/statusp.vim
 :source $HOME/my-vimrc/rpi/rpip.vim
 
 call vundle#end()

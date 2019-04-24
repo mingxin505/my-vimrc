@@ -1,0 +1,16 @@
+:source $HOME/git/my-vimrc/common.vim
+:source $HOME/git/my-vimrc/nerdtree.vim
+
+set rtp+=~/.vim/Bundle/Vundle.vim
+
+call vundle#begin()
+:source $HOME/git/my-vimrc/macos/macp.vim
+:source $HOME/git/my-vimrc/nerdtreep.vim
+:source $HOME/git/my-vimrc/statusp.vim
+:source $HOME/git/my-vimrc/ycmp.vim
+call vundle#end()
+
+:source $HOME/git/my-vimrc/macos/mac.vim
+:source $HOME/git/my-vimrc/ycm.vim
+:source $HOME/git/my-vimrc/status.vim
+
