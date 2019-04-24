@@ -4,10 +4,10 @@
 : so $MYVIMRC
 
 # vundle 
-vundle#begin()/end()对只能出现一次.
-那我的多个组件文件如何就只能放配置信息.
-plugin XX这行放一起了.
-我不想这样做.
+vundle#begin()/end()对只能出现一次.  
+那我的多个组件文件如何就只能放配置信息.  
+plugin XX这行放一起了.  
+我不想这样做.  
 解决之道是把Plugin 和配置分开.分别:source
 
 # vimrc 
