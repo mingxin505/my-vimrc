@@ -12,6 +12,5 @@ Plugin 'Valloric/ListToggle'
 "Plugin 'scrooloose/syntastic'
 Plugin 'L9'
 Plugin 'FuzzyFinder'
-Plugin 'kchmck/vim-coffee-script'
 " non-GitHub repos
 Plugin 'wincent/command-t.git'
