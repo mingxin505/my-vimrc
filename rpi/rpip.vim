@@ -6,7 +6,5 @@ Plugin 'groenewege/vim-less' " less 语法高亮
 Plugin 'pangloss/vim-javascript' " js 语法高亮
 Plugin 'Raimondi/delimitMate' " 引号/双引号/括号自动补全.shift+tab跳到后面
 Plugin 'tpope/vim-endwise' " 在ruby中自动添加end
-" 自动补全html/xml标签
-Plugin 'docunext/closetag.vim', { 'for': ['html', 'xml'] }
 
 

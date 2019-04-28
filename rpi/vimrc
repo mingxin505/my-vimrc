@@ -7,7 +7,8 @@ call vundle#begin()
 source $HOME/my-vimrc/statusp.vim
 source $HOME/my-vimrc/rpi/rpip.vim
 source $HOME/my-vimrc/coffeep.vim
+source $HOME/my-vimrc/emmetp.vim
 call vundle#end()
 source $HOME/my-vimrc/rpi/rpi.vim
 source $HOME/my-vimrc/status.vim
-source $HOME/my-vimrccoffee.vim
+source $HOME/my-vimrc/coffee.vim
