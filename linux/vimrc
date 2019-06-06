@@ -11,7 +11,7 @@ source $HOME/my-vimrc/ycmp.vim
 source $HOME/my-vimrc/coffeep.vim
 call vundle#end()
 
-source $HOME/my-vimrc/linx/linux.vim
+source $HOME/my-vimrc/linux/linux.vim
 source $HOME/my-vimrc/ycm.vim
 source $HOME/my-vimrc/status.vim
 source $HOME/my-vimrc/coffee.vim 
