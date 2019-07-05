@@ -9,7 +9,7 @@ set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本�
 " 自动缩进
 set autoindent
 set cindent
-
+set paste
 " 统一缩进为2
 set tabstop=2		
 set softtabstop=2	

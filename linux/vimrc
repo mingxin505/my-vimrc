@@ -1,7 +1,7 @@
 source $HOME/my-vimrc/common.vim
 source $HOME/my-vimrc/nerdtree.vim
 
-set rtp+=~/.vim/Bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 source $HOME/my-vimrc/linux/linuxp.vim
