@@ -11,7 +11,7 @@ source $HOME/my-vimrc/ycmp.vim
 source $HOME/my-vimrc/coffeep.vim
 source $HOME/my-vimrc/tagbarp.vim
 source $HOME/my-vimrc/ctrlpp.vim 
-
+source $HOME/my-vimrc/endwisep.vim
 call vundle#end()
 
 source $HOME/my-vimrc/linux/linux.vim
