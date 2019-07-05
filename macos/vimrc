@@ -9,6 +9,7 @@ source $HOME/git/my-vimrc/nerdtreep.vim
 source $HOME/git/my-vimrc/statusp.vim
 source $HOME/git/my-vimrc/ycmp.vim
 source $HOME/git/my-vimrc/coffeep.vim
+source $HOME/git/my-vimrc/endwisep.vim
 call vundle#end()
 
 source $HOME/git/my-vimrc/macos/mac.vim
