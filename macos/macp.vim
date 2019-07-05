@@ -1,4 +1,3 @@
-Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails.git'
 " let Vundle manage Vundle
 " required!
