@@ -8,7 +8,6 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'molokai'
 " vim-scripts repos
 Plugin 'Valloric/ListToggle'
-"Plugin 'scrooloose/syntastic'
 Plugin 'L9'
 Plugin 'FuzzyFinder'
 " non-GitHub repos
