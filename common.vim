@@ -9,7 +9,6 @@ set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本�
 " 自动缩进
 set autoindent
 set cindent
-set paste
 " 统一缩进为2
 set tabstop=2		
 set softtabstop=2	
@@ -36,3 +35,46 @@ set autowrite               " 自动保存
 "搜索逐字符高亮
 set hlsearch
 set incsearch
+
+
+
+
+
+" auto complete 
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap { {<CR>}<Esc>O
+autocmd Syntax html,vim inoremap < <lt>><Esc>i| inoremap > <c-r>=ClosePair('>')<CR>
+inoremap ) <c-r>=ClosePair(')')<CR>
+inoremap ] <c-r>=ClosePair(']')<CR>
+inoremap } <c-r>=CloseBracket()<CR>
+inoremap " <c-r>=QuoteDelim('"')<CR>
+inoremap ' <c-r>=QuoteDelim("'")<CR>
+
+function ClosePair(char)
+	if getline('.')[col('.') - 1] == a:char
+	return "\<Right>"
+	else
+	return a:char
+	endif
+endf
+
+function CloseBracket()
+	if match(getline(line('.') + 1), '\s*}') < 0
+	return "\<CR>}"
+	else
+	return "\<Esc>j0f}a"
+	endif
+endf
+
+function QuoteDelim(char)
+	let line = getline('.')
+	let col = col('.')
+	if line[col - 2] == "\\"
+	return a:char
+	elseif line[col - 1] == a:char
+	return "\<Right>"
+	else
+	return a:char.a:char."\<Esc>i"
+	endif
+endf
