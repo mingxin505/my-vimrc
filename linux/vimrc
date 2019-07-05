@@ -9,10 +9,14 @@ source $HOME/my-vimrc/nerdtreep.vim
 source $HOME/my-vimrc/statusp.vim
 source $HOME/my-vimrc/ycmp.vim
 source $HOME/my-vimrc/coffeep.vim
+source $HOME/my-vimrc/tagbarp.vim
+source $HOME/my-vimrc/ctrlpp.vim 
+
 call vundle#end()
 
 source $HOME/my-vimrc/linux/linux.vim
 source $HOME/my-vimrc/ycm.vim
 source $HOME/my-vimrc/status.vim
 source $HOME/my-vimrc/coffee.vim 
-
+source $HOME/my-vimrc/tagbar.vim
+source $HOME/my-vimrc/ctrlp.vim
