@@ -10,10 +10,12 @@ source $HOME/git/my-vimrc/statusp.vim
 source $HOME/git/my-vimrc/ycmp.vim
 source $HOME/git/my-vimrc/coffeep.vim
 source $HOME/git/my-vimrc/endwisep.vim
+source $HOME/git/my-vimrc/railsp.vim
 call vundle#end()
 
 source $HOME/git/my-vimrc/macos/mac.vim
 source $HOME/git/my-vimrc/ycm.vim
 source $HOME/git/my-vimrc/status.vim
 source $HOME/git/my-vimrc/coffee.vim 
-
+source $HOME/git/my-vimrc/endwise.vim
+source $HOME/git/my-vimrc/rails.vim

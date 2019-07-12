@@ -12,3 +12,26 @@ plugin XX这行放一起了.
 
 # vimrc 
 是各个平台的.vimrc文件,需要修改文件里的路径才能使用
+
+# PlugIn
+## ctrlp
+用于模糊搜索文件.  
+## endwise
+用于补全{},[],end
+## ycm
+用于语法高亮和语法检测
+## coffee
+用于coffeescript语言
+## nerdtree
+用于目录查看.
+## status
+用于显示状态栏
+## tagbar
+用于关键字提取与显示.需要ctags协助.
+## emmet
+用于HTML自动生成代码.
+## ruby-vim
+编译与编写ruby
+## rails-vim
+在ror项目间跳转.
+
