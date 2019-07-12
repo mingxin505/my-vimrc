@@ -9,8 +9,14 @@ source $HOME/my-vimrc/rpi/rpip.vim
 source $HOME/my-vimrc/coffeep.vim
 source $HOME/my-vimrc/emmetp.vim
 source $HOME/my-vimrc/ycmp.vim
+source $HOME/my-vimrc/endwisep.vim
+source $HOME/my-vimrc/railsp.vim
+
 call vundle#end()
 source $HOME/my-vimrc/rpi/rpi.vim
 source $HOME/my-vimrc/status.vim
 source $HOME/my-vimrc/coffee.vim
 source $HOME/my-vimrc/ycm.vim
+source $HOME/my-vimrc/endwise.vim
+source $HOME/my-vimrc/rails.vim
+
