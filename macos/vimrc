@@ -1,5 +1,4 @@
 source $HOME/git/my-vimrc/common.vim
-source $HOME/git/my-vimrc/nerdtree.vim
 
 set rtp+=~/.vim/Bundle/Vundle.vim
 
@@ -11,11 +10,16 @@ source $HOME/git/my-vimrc/ycmp.vim
 source $HOME/git/my-vimrc/coffeep.vim
 source $HOME/git/my-vimrc/endwisep.vim
 source $HOME/git/my-vimrc/railsp.vim
+source $HOME/git/my-vimrc/ctrlpp.vim
+source $HOME/git/my-vimrc/alep.vim
 call vundle#end()
 
 source $HOME/git/my-vimrc/macos/mac.vim
-source $HOME/git/my-vimrc/ycm.vim
+source $HOME/git/my-vimrc/nerdtree.vim
 source $HOME/git/my-vimrc/status.vim
+source $HOME/git/my-vimrc/ycm.vim
 source $HOME/git/my-vimrc/coffee.vim 
 source $HOME/git/my-vimrc/endwise.vim
 source $HOME/git/my-vimrc/rails.vim
+source $HOME/git/my-vimrc/ctrlp.vim
+source $HOME/git/my-vimrc/ale.vim

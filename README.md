@@ -34,4 +34,5 @@ plugin XX这行放一起了.
 编译与编写ruby
 ## rails-vim
 在ror项目间跳转.
-
+## ale
+语法检测插件

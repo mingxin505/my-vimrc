@@ -1,5 +1,4 @@
 source $HOME/my-vimrc/common.vim
-source $HOME/my-vimrc/nerdtree.vim
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -12,11 +11,15 @@ source $HOME/my-vimrc/coffeep.vim
 source $HOME/my-vimrc/tagbarp.vim
 source $HOME/my-vimrc/ctrlpp.vim 
 source $HOME/my-vimrc/endwisep.vim
+source $HOME/my-vimrc/alep.vim
 call vundle#end()
 
 source $HOME/my-vimrc/linux/linux.vim
-source $HOME/my-vimrc/ycm.vim
+source $HOME/my-vimrc/nerdtree.vim
 source $HOME/my-vimrc/status.vim
+source $HOME/my-vimrc/ycm.vim
 source $HOME/my-vimrc/coffee.vim 
 source $HOME/my-vimrc/tagbar.vim
 source $HOME/my-vimrc/ctrlp.vim
+source $HOME/my-vimrc/endwise.vim
+source $HOME/my-vimrc/ale.vim
