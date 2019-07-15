@@ -9,22 +9,20 @@ set nocompatible  "去掉讨厌的有关vi一致性模式，避免以前版本�
 " 自动缩进
 set autoindent
 set cindent
+set noexpandtab 
+set number
+
 " 统一缩进为2
 set tabstop=2		
 set softtabstop=2	
 set shiftwidth=2
 
-" 根据文件类型设置缩进"
-if has("autocmd")
-  filetype on
-  autocmd Filetype c,c++,java  setlocal ts=4 sts=4 sw=4 et
-endif
-
-set noexpandtab 
-set number
-set autoindent 
-set cindent
-
+"indent:	如果用了:set indent,:set ai 等自动缩进，
+"					想用退格键将字段缩进的删掉，必须设置这个选项。
+"					否则不响应。
+"eol:			如果插入模式下在行开头，想通过退格键合并两行，需要设置eol。
+"start：	要想删除此次插入前的输入，需设置这个。
+set backspace=indent,eol,start
 
 "禁止生成临时文件
 set nobackup
@@ -37,8 +35,11 @@ set hlsearch
 set incsearch
 
 
-
-
+" 根据文件类型设置缩进"
+if has("autocmd")
+  filetype on
+  autocmd Filetype c,c++,java  setlocal ts=4 sts=4 sw=4 et
+endif
 
 " auto complete 
 inoremap ( ()<Esc>i
